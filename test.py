@@ -326,7 +326,7 @@ while(True):
             #print(mensaje)
             #print(mensaje1)
             mensaje =mensaje1
-            mensaje = "RESET"
+            #mensaje = "RESET"
             print(mensaje)
         else :
             mensaje = "error terrible en 1BA2"
