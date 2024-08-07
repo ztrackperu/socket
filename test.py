@@ -310,7 +310,7 @@ while(True):
             mensaje_completo += ",2,2"
             #battery_voltage,power_trip_duration,
             #print(mensaje_completo )
-           # print(generarJson1(camposMadurador.split(separador),madurar))
+            #print(generarJson1(camposMadurador.split(separador),madurar))
             #print(generarJson(camposMadurador.split(separador),mensaje_completo.split(separador)))
 
 
@@ -323,8 +323,10 @@ while(True):
             #print(mensaje1)
             #print(generarJson1(camposMadurador.split(separador),mensaje_completo.split(separador)))
             #mensaje1 ="RESET"
-	    mensaje =mensaje1
-	    #mensaje='RESET'
+            #print(mensaje)
+            #print(mensaje1)
+            mensaje =mensaje1
+            mensaje = "RESET"
             print(mensaje)
         else :
             mensaje = "error terrible en 1BA2"
